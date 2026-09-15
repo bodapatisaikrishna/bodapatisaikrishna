@@ -191,6 +191,7 @@ dataset.
 | PR | Repo | Summary |
 |---|---|---|
 | [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | `huggingface/huggingface_hub` | `[Core]` Restrict `repo_id` validation regex to ASCII word characters |
+| [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | `huggingface/huggingface_hub` | `[Core]` Reject path traversal via embedded `..` segments in `path_in_repo` |
 
 **[pytorch/pytorch](https://github.com/pytorch/pytorch)** — open pull requests, under review:
 
