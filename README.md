@@ -186,6 +186,12 @@ dataset.
 
 ### Open source
 
+**Merged:**
+
+| PR | Repo | Summary |
+|---|---|---|
+| [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | `huggingface/huggingface_hub` | `[Core]` Restrict `repo_id` validation regex to ASCII word characters |
+
 **[pytorch/pytorch](https://github.com/pytorch/pytorch)** — open pull requests, under review:
 
 | PR | Area | Summary |
