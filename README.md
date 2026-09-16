@@ -5,7 +5,7 @@
 
   Decorative images (capsule-render header/footer, readme-typing-svg, streak-stats) go through
   public third-party instances that are occasionally rate-limited. If any stops rendering,
-  delete that one line/block — nothing else depends on them. shields.io badges are reliable.
+  delete that one line/block; nothing else depends on them. shields.io badges are reliable.
 -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:1f6feb&reversal=false" width="100%" alt=""/>
@@ -13,7 +13,7 @@
 <h1 align="center">Sai Krishna Bodapati</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=17&pause=1200&color=8B949E&center=true&vCenter=true&width=560&lines=Applied+AI%2FML+engineer;Explainable+systems%2C+honestly+evaluated;Critical-infra+security+%C2%B7+Agentic+AI+%C2%B7+Payments" alt="Applied AI/ML engineer — explainable systems, honestly evaluated"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=17&pause=1200&color=8B949E&center=true&vCenter=true&width=560&lines=Applied+AI%2FML+engineer;Explainable+systems%2C+honestly+evaluated;Critical-infra+security+%C2%B7+Agentic+AI+%C2%B7+Payments" alt="Applied AI/ML engineer: explainable systems, honestly evaluated"/>
 </p>
 
 <p align="center">
@@ -39,14 +39,14 @@
 ### About
 
 AI &amp; ML undergraduate at **Amrita Vishwa Vidyapeetham**, Coimbatore. I build machine-learning
-systems that are **engineered like products** — typed APIs, real test suites, one-command
-deploys — and **evaluated like research**: leakage-free splits, ablations, significance tests,
+systems that are **engineered like products** (typed APIs, real test suites, one-command
+deploys) and **evaluated like research**: leakage-free splits, ablations, significance tests,
 and a written account of what *doesn't* work.
 
 Most of my work sits where applied ML meets systems engineering: **critical-infrastructure
 security**, **agentic-AI governance**, and **payments / financial reconciliation**.
 
-> If a model loses to its own baseline, my READMEs say so — on the same page as the headline number.
+> If a model loses to its own baseline, my READMEs say so, on the same page as the headline number.
 
 ---
 
@@ -110,7 +110,7 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 
 ### Featured projects
 
-#### [ACDE — Agentic Cloud Pipeline Governance](https://github.com/bodapatisaikrishna/agentic-cloud-pipeline-governance)
+#### [ACDE: Agentic Cloud Pipeline Governance](https://github.com/bodapatisaikrishna/agentic-cloud-pipeline-governance)
 *Policy-bounded agentic governance for cloud data pipelines.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -120,11 +120,11 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 <br/>
 Four bounded AI agents observe telemetry and *propose* actions; an OPA policy gate validates every
-proposal before execution — safety from the architecture, not the model. Independent replication
+proposal before execution: safety from the architecture, not the model. Independent replication
 **and** extension of an arXiv paper.
 &nbsp;•&nbsp; **556 unit tests · adversarial-containment measured at 1.0**
 
-#### [Kosh — AI Finance Controller](https://github.com/bodapatisaikrishna/kosh)
+#### [Kosh: AI Finance Controller](https://github.com/bodapatisaikrishna/kosh)
 *Three-way payment-settlement reconciliation, tied out to the paisa.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -137,7 +137,7 @@ Buildathon 2026**.
 &nbsp;•&nbsp; **257 tests · 0.00 % false-match across 11 seeds &amp; 7 adversarial attacks**
 
 #### [CyberPhysicalDBN](https://github.com/bodapatisaikrishna/CyberPhysicalDBN)
-*Causal intrusion detection for power grids — learned, not hand-tuned; closed-loop, not open.*
+*Causal intrusion detection for power grids: learned, not hand-tuned; closed-loop, not open.*
 <br/>
 ![PyG](https://img.shields.io/badge/PyTorch_Geometric-3C2179?style=flat-square&logo=pytorch&logoColor=white)
 ![pgmpy](https://img.shields.io/badge/pgmpy-2B7A78?style=flat-square)
@@ -149,7 +149,7 @@ feedback loop, and a PPO attacker is trained to evade the detector. Extends an *
 &nbsp;•&nbsp; **530 tests · 12 pre-registered experiments · negative results kept and reported**
 
 #### [AgriIntelligence](https://github.com/bodapatisaikrishna/agri-intelligence)
-*Explainable precision-farming platform — 13 decision modules behind one service.*
+*Explainable precision-farming platform: 13 decision modules behind one service.*
 <br/>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -190,29 +190,21 @@ dataset.
 
 | PR | Repo | Summary |
 |---|---|---|
-| [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | `huggingface/huggingface_hub` | `[Core]` Restrict `repo_id` validation regex to ASCII word characters |
-| [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | `huggingface/huggingface_hub` | `[Core]` Reject path traversal via embedded `..` segments in `path_in_repo` |
-| [#6850](https://github.com/optuna/optuna/pull/6850) | `optuna/optuna` | `[Docs]` Fix outdated failure and NaN reporting examples in FAQ |
+| [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt=""/> `huggingface/huggingface_hub` | `[Core]` Restrict `repo_id` validation regex to ASCII word characters |
+| [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | <img src="https://github.com/huggingface.png" width="16" height="16" alt=""/> `huggingface/huggingface_hub` | `[Core]` Reject path traversal via embedded `..` segments in `path_in_repo` |
+| [#6850](https://github.com/optuna/optuna/pull/6850) | <img src="https://github.com/optuna.png" width="16" height="16" alt=""/> `optuna/optuna` | `[Docs]` Fix outdated failure and NaN reporting examples in FAQ |
 
-**[pytorch/pytorch](https://github.com/pytorch/pytorch)** — open pull requests, under review:
-
-| PR | Area | Summary |
-|---|---|---|
-| [#196292](https://github.com/pytorch/pytorch/pull/196292) | `dynamo` | Fix `OptimizedModule` truthiness for modules that are not `Sized` |
-| [#196296](https://github.com/pytorch/pytorch/pull/196296) | `dynamo` | Coerce `__index__` objects in `SliceVariable` so tensors can be sliced by them |
-| [#196300](https://github.com/pytorch/pytorch/pull/196300) | `tests` / `masked` | Skip fully-masked-out slices in masked-softmax OpInfo samples |
-
-**Model Context Protocol** — built *DomainExpansion.ai* as a full MCP server (11 tools, 6 resources,
+**Model Context Protocol**: built *DomainExpansion.ai* as a full MCP server (11 tools, 6 resources,
 4 prompts), confirmed at the protocol level.
 
 ---
 
 ### Currently working on
 
-- **ACDE** — production hardening and a multi-tenant layer for agentic pipeline governance
-- **CyberPhysicalDBN** — adversarial robustness of causal vs. deep-IDS detectors under an RL attacker
-- **klaim** — evidence-first recovery of unjustified quick-commerce vendor deductions
-- Going deeper on **PyTorch Dynamo internals** — `torch.compile`, `SliceVariable`, OpInfo
+- **ACDE**: production hardening and a multi-tenant layer for agentic pipeline governance
+- **CyberPhysicalDBN**: adversarial robustness of causal vs. deep-IDS detectors under an RL attacker
+- **klaim**: evidence-first recovery of unjustified quick-commerce vendor deductions
+- Going deeper on **PyTorch Dynamo internals**: `torch.compile`, `SliceVariable`, OpInfo
 
 ---
 
