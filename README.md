@@ -190,6 +190,7 @@ dataset.
 
 | PR | Repo | Summary |
 |---|---|---|
+| [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt=""/> `NVIDIA/garak` | `[Core]` Use prompt setter in paraphrase buffs to update conversation history and preserve `Conversation` type |
 | [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt=""/> `huggingface/huggingface_hub` | `[Core]` Restrict `repo_id` validation regex to ASCII word characters |
 | [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | <img src="https://github.com/huggingface.png" width="16" height="16" alt=""/> `huggingface/huggingface_hub` | `[Core]` Reject path traversal via embedded `..` segments in `path_in_repo` |
 | [#6850](https://github.com/optuna/optuna/pull/6850) | <img src="https://github.com/optuna.png" width="16" height="16" alt=""/> `optuna/optuna` | `[Docs]` Fix outdated failure and NaN reporting examples in FAQ |
