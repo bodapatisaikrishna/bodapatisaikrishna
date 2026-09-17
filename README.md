@@ -3,14 +3,37 @@
   Repo: github.com/bodapatisaikrishna/bodapatisaikrishna  (repo name must equal the username)
   Update: edit this file, commit to `main`. Plain Markdown + GitHub-allowed inline HTML.
 
-  Decorative images (capsule-render header/footer, readme-typing-svg, streak-stats) go through
-  public third-party instances that are occasionally rate-limited. If any stops rendering,
-  delete that one line/block; nothing else depends on them. shields.io badges are reliable.
+  Decorative images (capsule-render header/footer, readme-typing-svg, streak-stats,
+  github-readme-stats, github-profile-trophy) go through public third-party instances
+  that are occasionally rate-limited. If any stops rendering, delete that one
+  line/block; nothing else depends on them. shields.io badges are reliable.
 -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:1f6feb&reversal=false" width="100%" alt=""/>
 
-<h1 align="center">Sai Krishna Bodapati</h1>
+<div align="center">
+
+```
+ _____  ___  _____   _   ________ _____ _____ _   _  _   _   ___
+/  ___|/ _ \|_   _| | | / /| ___ \_   _/  ___| | | || \ | | / _ \
+\ `--./ /_\ \ | |   | |/ / | |_/ / | | \ `--.| |_| ||  \| |/ /_\ \
+ `--. \  _  | | |   |    \ |    /  | |  `--. \  _  || . ` ||  _  |
+/\__/ / | | |_| |_  | |\  \| |\ \ _| |_/\__/ / | | || |\  || | | |
+\____/\_| |_/\___/  \_| \_/\_| \_|\___/\____/\_| |_/\_| \_/\_| |_/
+```
+
+```
+sai@dev
+-------
+OS      : Amrita Vishwa Vidyapeetham — AI & ML
+Kernel  : applied-ml 5.2.0-research
+Shell   : pytorch + fastapi
+Editor  : vscode / neovim
+Focus   : infra-security · agentic-ai · fintech
+Status  : open to ML / research internships
+```
+
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=17&pause=1200&color=8B949E&center=true&vCenter=true&width=560&lines=Applied+AI%2FML+engineer;Explainable+systems%2C+honestly+evaluated;Critical-infra+security+%C2%B7+Agentic+AI+%C2%B7+Payments" alt="Applied AI/ML engineer: explainable systems, honestly evaluated"/>
@@ -24,6 +47,10 @@
   <a href="https://github.com/bodapatisaikrishna?tab=repositories">
     <img src="https://img.shields.io/badge/Repositories-181717?style=flat-square&logo=github&logoColor=white" alt="Repositories"/></a>
   <img src="https://img.shields.io/badge/Open%20to-ML%20%2F%20research%20internships-2ea043?style=flat-square" alt="Open to internships"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bodapatisaikrishna&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&margin-h=6&row=1&column=6" alt="Trophies"/>
 </p>
 
 <p align="center">
@@ -52,7 +79,7 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 
 ### Tech
 
-**Languages**
+<sub><code>sai@dev:~/stack$</code> cat languages.sh</sub>
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -61,7 +88,7 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square)
 
-**ML &amp; data**
+<sub><code>sai@dev:~/stack$</code> ./train_ml_stack.sh --list</sub>
 <br/>
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![PyG](https://img.shields.io/badge/PyTorch_Geometric-3C2179?style=flat-square&logo=pytorch&logoColor=white)
@@ -72,7 +99,7 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-1f77b4?style=flat-square)
 
-**Modeling**
+<sub><code>sai@dev:~/stack$</code> ls modeling/</sub>
 <br/>
 ![GNNs](https://img.shields.io/badge/GNNs-555?style=flat-square)
 ![LSTMs](https://img.shields.io/badge/LSTMs-555?style=flat-square)
@@ -80,7 +107,7 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 ![DBNs](https://img.shields.io/badge/Dynamic_Bayesian_Networks-555?style=flat-square)
 ![RL](https://img.shields.io/badge/PPO_%2F_RL-555?style=flat-square)
 
-**Backend &amp; infra**
+<sub><code>sai@dev:~/stack$</code> docker compose config --services</sub>
 <br/>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -90,14 +117,14 @@ security**, **agentic-AI governance**, and **payments / financial reconciliation
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-**Frontend**
+<sub><code>sai@dev:~/stack$</code> npm run stack:frontend</sub>
 <br/>
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=flat-square)
 
-**Systems &amp; security**
+<sub><code>sai@dev:~/stack$</code> grep -rl "security" infra/</sub>
 <br/>
 ![Open Policy Agent](https://img.shields.io/badge/Open_Policy_Agent-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat-square)
@@ -211,6 +238,11 @@ dataset.
 ---
 
 ### Contributions
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bodapatisaikrishna&show_icons=true&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=1F6FEB&text_color=8B949E&ring_color=1F6FEB" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bodapatisaikrishna&layout=compact&hide_border=true&bg_color=0D1117&title_color=1F6FEB&text_color=8B949E&langs_count=8" alt="Top languages"/>
+</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=bodapatisaikrishna&hide_border=true&card_width=470&background=0D1117&stroke=30363D&ring=1F6FEB&fire=1F6FEB&currStreakLabel=8B949E" alt="GitHub streak stats"/>
