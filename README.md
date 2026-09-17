@@ -190,6 +190,7 @@ dataset.
 
 | PR | Repo | Summary |
 |---|---|---|
+| [#132860](https://github.com/grafana/grafana/pull/132860) | <img src="https://github.com/grafana.png" width="16" height="16" alt=""/> `grafana/grafana` | `[Core]` Remove `\B` alternation in logs key regex to eliminate catastrophic backtracking (5000x faster) |
 | [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt=""/> `NVIDIA/garak` | `[Core]` Use prompt setter in paraphrase buffs to update conversation history and preserve `Conversation` type |
 | [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt=""/> `huggingface/huggingface_hub` | `[Core]` Restrict `repo_id` validation regex to ASCII word characters |
 | [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | <img src="https://github.com/huggingface.png" width="16" height="16" alt=""/> `huggingface/huggingface_hub` | `[Core]` Reject path traversal via embedded `..` segments in `path_in_repo` |
