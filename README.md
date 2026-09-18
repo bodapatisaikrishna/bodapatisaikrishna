@@ -18,7 +18,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Applied+AI%2FML+%26+Systems+Engineer;Explainable+Systems%2C+Honestly+Evaluated;Agentic+Governance+%C2%B7+Causal+IDS+%C2%B7+MCP-Native;Tier-1+OSS+Contributor+(Grafana%2C+HuggingFace%2C+NVIDIA)" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Applied+AI%2FML+%26+Systems+Engineer;Explainable+Systems%2C+Honestly+Evaluated;Agentic+Governance+%C2%B7+Causal+IDS+%C2%B7+MCP-Native;Tier-1+OSS+Contributor+(Apache%2C+Grafana%2C+HuggingFace%2C+NVIDIA)" alt="Typing SVG" />
   </a>
 </div>
 
@@ -228,6 +228,7 @@ saikrishna@node-01:~/oss$ git log --oneline --grep="MERGED" --tier-1
 
 | Pull Request | Repository | Engineering Impact &amp; Summary |
 |:---:|---|---|
+| [#3732](https://github.com/apache/dubbo-go/pull/3732) | <img src="https://github.com/apache.png" width="16" height="16" alt="Apache"/> `apache/dubbo-go` | **[Core / Concurrency]** Prevented data race on router cache under concurrent routing using `atomic.Pointer` |
 | [#132860](https://github.com/grafana/grafana/pull/132860) | <img src="https://github.com/grafana.png" width="16" height="16" alt="Grafana"/> `grafana/grafana` | **[Core]** Eliminated `\B` alternation in logs key regex, removing catastrophic backtracking (**5,000x performance speedup**) |
 | [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt="NVIDIA"/> `NVIDIA/garak` | **[Core]** Used prompt setter in paraphrase buffs to update conversation history and preserve `Conversation` type integrity |
 | [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security]** Restricted `repo_id` validation regex strictly to ASCII word characters to prevent identifier ambiguity |
