@@ -50,19 +50,15 @@
 <a id="about-me"></a>
 ### 👋 About Me
 
-```bash
-saikrishna@node-01:~$ whoami --verbose
-```
-
 I'm an AI &amp; ML undergraduate at **Amrita Vishwa Vidyapeetham**, Coimbatore.
 
-I love building machine learning systems that are **engineered like real products**—with clean typed APIs, comprehensive test suites, and reproducible one-command deploys—and **evaluated like serious research**: with leakage-free data splits, honest ablation studies, statistical significance tests, and a transparent account of what *didn't* work.
+I love building machine learning systems that are **engineered like real products** (clean typed APIs, comprehensive test suites, reproducible one-command deploys) and **evaluated like serious research** (leakage-free data splits, honest ablation studies, statistical significance tests, and a transparent account of what *didn't* work).
 
 Most of my day-to-day focus sits right where applied ML meets practical systems engineering:
-- **Critical-infrastructure security** — Causal intrusion detection in power grids and industrial SCADA networks.
-- **Agentic-AI governance** — Enforcing deterministic security boundaries (via OPA / Rego) around autonomous LLM agents.
-- **Payments &amp; financial reconciliation** — High-throughput ledger matching with microsecond latencies and zero margin of error.
-- **Compiler internals** — Digging into PyTorch Dynamo, `torch.compile`, and operator lowering.
+- **Critical-infrastructure security**: Causal intrusion detection in power grids and industrial SCADA networks.
+- **Agentic-AI governance**: Enforcing deterministic security boundaries (via OPA / Rego) around autonomous LLM agents.
+- **Payments &amp; financial reconciliation**: High-throughput ledger matching with microsecond latencies and zero margin of error.
+- **Compiler internals**: Digging into PyTorch Dynamo, `torch.compile`, and operator lowering.
 
 > 💡 *Guiding Invariant*: **"If a model loses to its own simple baseline, my READMEs say so right on the front page alongside the headline number."**
 
@@ -175,7 +171,7 @@ Built for the **Razorpay AI Buildathon 2026**. Kosh reconciles high-volume finan
 ![pandapower](https://img.shields.io/badge/pandapower-2B7A78?style=flat-square)
 ![SB3](https://img.shields.io/badge/stable--baselines3-555555?style=flat-square)
 
-Standard intrusion detection systems in smart grids treat telemetry like arbitrary time-series data, completely ignoring underlying physical grid equations. In this project, a Graph Neural Network (GNN) perception layer feeds into a Dynamic Bayesian Network, with `pandapower` simulating real physical electrical loop feedback. To rigorously stress-test its resilience, I trained a reinforcement learning (PPO) adversarial attacker specifically tasked with dodging the detector. Extends an *IEEE Access* publication with 12 pre-registered experiments—keeping and reporting all negative results.
+Standard intrusion detection systems in smart grids treat telemetry like arbitrary time-series data, completely ignoring underlying physical grid equations. In this project, a Graph Neural Network (GNN) perception layer feeds into a Dynamic Bayesian Network, with `pandapower` simulating real physical electrical loop feedback. To rigorously stress-test its resilience, I trained a reinforcement learning (PPO) adversarial attacker specifically tasked with dodging the detector. Extends an *IEEE Access* publication with 12 pre-registered experiments, keeping and reporting all negative results.
 &nbsp;•&nbsp; **530 tests · 12 pre-registered experiments · Full adversarial RL evaluation**
 
 ---
@@ -199,7 +195,7 @@ Detects Broken Object Level Authorization (BOLA), hidden endpoints, and credenti
 ![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-Most machine learning tools in agriculture act as black boxes that growers cannot verify. AgriIntelligence packages 13 agronomic models behind a clean FastAPI service, attaching SHAP or Grad-CAM explanations to every single recommendation so users understand the *why*. Features strict leakage-free temporal splits, Diebold–Mariano statistical significance tests, and an automated script that compiles an IEEE-style paper directly from trained checkpoints.
+Most machine learning tools in agriculture act as black boxes that growers cannot verify. AgriIntelligence packages 13 agronomic models behind a clean FastAPI service, attaching SHAP or Grad-CAM explanations to every single recommendation so users understand the *why*. Features strict leakage-free temporal splits, Diebold-Mariano statistical significance tests, and an automated script that compiles an IEEE-style paper directly from trained checkpoints.
 &nbsp;•&nbsp; **68 tests · Deployed with Docker on Hugging Face Spaces**
 
 ---
