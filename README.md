@@ -210,6 +210,7 @@ I'm an active open-source contributor and enjoy fixing performance bottlenecks a
 
 | Pull Request | Repository | What Was Solved &amp; Why It Matters |
 |:---:|---|---|
+| [#10625](https://github.com/celery/celery/pull/10625) | <img src="https://github.com/celery.png" width="16" height="16" alt="Celery"/> `celery/celery` | **[Correctness Fix]** Fixed `utcoffset()` to return the exact fractional UTC offset instead of a truncated integer, eliminating timestamp drift for fractional-hour timezones (e.g. India, Nepal) in event timestamp correction. |
 | [#132860](https://github.com/grafana/grafana/pull/132860) | <img src="https://github.com/grafana.png" width="16" height="16" alt="Grafana"/> `grafana/grafana` | **[Core Performance]** Diagnosed and eliminated catastrophic regular expression backtracking (`\B` alternation) in Loki log key parsing, achieving a **5,000x speedup** on adversarial inputs. |
 | [#3732](https://github.com/apache/dubbo-go/pull/3732) | <img src="https://github.com/apache.png" width="16" height="16" alt="Apache"/> `apache/dubbo-go` | **[Concurrency &amp; Data Race]** Closed a high-concurrency race condition on router cache using `atomic.Pointer` under concurrent route generation. |
 | [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt="NVIDIA"/> `NVIDIA/garak` | **[Core LLM Red-Teaming]** Corrected prompt setters in paraphrase buffs to maintain conversation history and preserve `Conversation` type integrity during vulnerability scans. |
