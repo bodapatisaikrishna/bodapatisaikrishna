@@ -18,7 +18,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Applied+AI%2FML+%26+Systems+Engineer;Explainable+Systems%2C+Honestly+Evaluated;Agentic+Governance+%C2%B7+Causal+IDS+%C2%B7+MCP-Native;Tier-1+OSS+Contributor+(Apache%2C+Grafana%2C+HuggingFace%2C+NVIDIA)" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Applied+AI%2FML+%26+Systems+Engineer;Explainable+Systems%2C+Honestly+Evaluated;Agentic+Governance+%C2%B7+Causal+IDS+%C2%B7+MCP-Native;Tier-1+OSS+Contributor+(Grafana%2C+HuggingFace%2C+NVIDIA)" alt="Typing SVG" />
   </a>
 </div>
 
@@ -36,29 +36,35 @@
 </p>
 
 <p align="center">
-  <a href="#system-info">System Info</a> &nbsp;•&nbsp;
+  <a href="#about-me">About Me</a> &nbsp;•&nbsp;
   <a href="#runtime--stack">Tech Stack</a> &nbsp;•&nbsp;
-  <a href="#verified-deployments">Deployments</a> &nbsp;•&nbsp;
+  <a href="#verified-deployments">Projects</a> &nbsp;•&nbsp;
   <a href="#upstream-contributions">Open Source</a> &nbsp;•&nbsp;
-  <a href="#active-research">Research</a> &nbsp;•&nbsp;
-  <a href="#telemetry--stats">Telemetry</a> &nbsp;•&nbsp;
+  <a href="#active-research">Current Work</a> &nbsp;•&nbsp;
+  <a href="#telemetry--stats">Activity</a> &nbsp;•&nbsp;
   <a href="#handshake">Connect</a>
 </p>
 
 ---
 
-<a id="system-info"></a>
+<a id="about-me"></a>
+### 👋 About Me
+
 ```bash
 saikrishna@node-01:~$ whoami --verbose
 ```
 
-> **Sai Krishna Bodapati** — AI &amp; ML undergraduate at **Amrita Vishwa Vidyapeetham**, Coimbatore.
-> 
-> I engineer machine-learning systems that are **built like products** (typed APIs, real test suites, one-command deploys) and **evaluated like research**: leakage-free splits, rigorous ablations, significance tests, and a transparent written account of what *doesn't* work.
-> 
-> **Core Focus**: Critical-infrastructure security, agentic-AI governance, payments / financial reconciliation, and PyTorch compiler internals.
-> 
-> 💡 *System Invariant*: **"If a model loses to its own baseline, my READMEs say so on the front page alongside the headline number."**
+I'm an AI &amp; ML undergraduate at **Amrita Vishwa Vidyapeetham**, Coimbatore.
+
+I love building machine learning systems that are **engineered like real products**—with clean typed APIs, comprehensive test suites, and reproducible one-command deploys—and **evaluated like serious research**: with leakage-free data splits, honest ablation studies, statistical significance tests, and a transparent account of what *didn't* work.
+
+Most of my day-to-day focus sits right where applied ML meets practical systems engineering:
+- **Critical-infrastructure security** — Causal intrusion detection in power grids and industrial SCADA networks.
+- **Agentic-AI governance** — Enforcing deterministic security boundaries (via OPA / Rego) around autonomous LLM agents.
+- **Payments &amp; financial reconciliation** — High-throughput ledger matching with microsecond latencies and zero margin of error.
+- **Compiler internals** — Digging into PyTorch Dynamo, `torch.compile`, and operator lowering.
+
+> 💡 *Guiding Invariant*: **"If a model loses to its own simple baseline, my READMEs say so right on the front page alongside the headline number."**
 
 ---
 
@@ -66,7 +72,7 @@ saikrishna@node-01:~$ whoami --verbose
 ### 💻 System Environment &amp; Tech Stack
 
 ```bash
-saikrishna@node-01:~/stack$ cat runtime_languages.env
+saikrishna@node-01:~/stack$ cat languages_and_scripting.txt
 ```
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -78,7 +84,7 @@ saikrishna@node-01:~/stack$ cat runtime_languages.env
 ![MATLAB](https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge&logo=matlab&logoColor=white)
 
 ```bash
-saikrishna@node-01:~/stack$ python3 -m torch.distributed.launch --eval-mode --scientific
+saikrishna@node-01:~/stack$ ./init_ml_environment.sh --eval-mode
 ```
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -91,7 +97,7 @@ saikrishna@node-01:~/stack$ python3 -m torch.distributed.launch --eval-mode --sc
 ![SHAP](https://img.shields.io/badge/SHAP-1f77b4?style=for-the-badge)
 
 <details>
-<summary><b>View Modeling Paradigms</b></summary>
+<summary><b>Modeling &amp; Theoretical Tooling</b></summary>
 <br/>
 
 ![GNNs](https://img.shields.io/badge/Graph_Neural_Networks-2D3748?style=flat-square)
@@ -102,7 +108,7 @@ saikrishna@node-01:~/stack$ python3 -m torch.distributed.launch --eval-mode --sc
 </details>
 
 ```bash
-saikrishna@node-01:~/stack$ ./serve_infrastructure --protocol=mcp --zero-trust
+saikrishna@node-01:~/stack$ ./serve_infrastructure.sh --protocol=mcp
 ```
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -117,7 +123,7 @@ saikrishna@node-01:~/stack$ ./serve_infrastructure --protocol=mcp --zero-trust
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 ```bash
-saikrishna@node-01:~/stack$ ./security_simulation --iec-60870 --eval-containment
+saikrishna@node-01:~/stack$ ./audit_security_stack.sh
 ```
 
 ![AES-256](https://img.shields.io/badge/AES--256-A31515?style=for-the-badge)
@@ -129,14 +135,14 @@ saikrishna@node-01:~/stack$ ./security_simulation --iec-60870 --eval-containment
 ---
 
 <a id="verified-deployments"></a>
-### 🚀 Production &amp; Research Deployments
+### 🚀 Featured Systems &amp; Projects
 
 ```bash
-saikrishna@node-01:~/deployments$ ./list_active_systems.sh --verified-only
+saikrishna@node-01:~/projects$ ls -la --sort=impact
 ```
 
 #### 🛡️ [ACDE: Agentic Cloud Pipeline Governance](https://github.com/bodapatisaikrishna/agentic-cloud-pipeline-governance)
-*Policy-bounded agentic governance for distributed cloud data pipelines.*
+*Policy-bounded agentic governance for distributed cloud pipelines.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![OPA](https://img.shields.io/badge/OPA_%2F_Rego-7D9199?style=flat-square&logo=openpolicyagent&logoColor=white)
@@ -144,51 +150,44 @@ saikrishna@node-01:~/deployments$ ./list_active_systems.sh --verified-only
 ![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-- Four bounded AI agents continuously observe telemetry and *propose* remediation actions.
-- An Open Policy Agent (OPA) gate evaluates every proposed action against deterministic security policies before execution: **safety guaranteed by system architecture, not LLM alignment**.
-- Independent replication and extension of an arXiv paper.
-- 🎯 **556 unit tests · Adversarial containment measured at 1.0 (zero bypasses)**
+Autonomous AI agents can fix broken data pipelines on the fly, but letting an LLM execute arbitrary shell or SQL commands in production is reckless. I built ACDE to enforce safety through architecture rather than prompt alignment: four specialized agents continuously monitor pipeline telemetry and *propose* remediation steps, but an Open Policy Agent (OPA) gate evaluates every proposed mutation against deterministic security policies before anything runs. Replicated and extended an arXiv research paper with a dedicated adversarial containment evaluation suite.
+&nbsp;•&nbsp; **556 unit tests · Adversarial containment measured at 1.0 (zero policy leaks)**
 
 ---
 
 #### 💳 [Kosh: AI Finance Controller](https://github.com/bodapatisaikrishna/kosh)
-*Three-way payment-settlement reconciliation, tied out to the single paisa.*
+*Three-way payment settlement reconciliation, tied out to the exact paisa.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LLM Tool Use](https://img.shields.io/badge/LLM_Tool--Use-000000?style=flat-square)
 ![Zero Deps](https://img.shields.io/badge/runtime_deps-0-blue?style=flat-square)
 
-- Orders ↔ Gateway Ledger ↔ Bank Statement, reconciled in **~40 ms for 10,000 records**.
-- Deterministic-first architecture: an LLM agent only inspects the &lt;0.5% edge cases that rule-based systems cannot resolve.
-- Built for the **Razorpay AI Buildathon 2026**.
-- 🎯 **257 tests · 0.00% false-match rate across 11 random seeds &amp; 7 adversarial attack vectors**
+Built for the **Razorpay AI Buildathon 2026**. Kosh reconciles high-volume financial transactions across customer orders, payment gateway ledgers, and bank statements in ~40 ms for 10,000 records. It follows a strict deterministic-first philosophy: fast vector math and heuristic rules settle 99.5%+ of entries instantly, while a tool-using LLM agent is only ever invoked for the messy &lt;0.5% edge cases that need contextual reasoning. Designed with zero external runtime dependencies.
+&nbsp;•&nbsp; **257 tests · 0.00% false-match rate across 11 random seeds &amp; 7 adversarial test cases**
 
 ---
 
 #### ⚡ [CyberPhysicalDBN](https://github.com/bodapatisaikrishna/CyberPhysicalDBN)
-*Causal intrusion detection for power grids: learned, not hand-tuned; closed-loop, not open.*
+*Causal intrusion detection for smart power grids: learned, not hand-tuned; closed-loop, not open.*
 <br/>
 ![PyG](https://img.shields.io/badge/PyTorch_Geometric-3C2179?style=flat-square&logo=pytorch&logoColor=white)
 ![pgmpy](https://img.shields.io/badge/pgmpy-2B7A78?style=flat-square)
 ![pandapower](https://img.shields.io/badge/pandapower-2B7A78?style=flat-square)
 ![SB3](https://img.shields.io/badge/stable--baselines3-555555?style=flat-square)
 
-- A GNN perception layer feeds a Dynamic Bayesian Network, with `pandapower` closing the physical power grid feedback loop.
-- Features a reinforcement-learning (PPO) attacker trained specifically to attempt evading the causal detector.
-- Extends an *IEEE Access* paper.
-- 🎯 **530 tests · 12 pre-registered experiments · Negative results retained and published**
+Standard intrusion detection systems in smart grids treat telemetry like arbitrary time-series data, completely ignoring underlying physical grid equations. In this project, a Graph Neural Network (GNN) perception layer feeds into a Dynamic Bayesian Network, with `pandapower` simulating real physical electrical loop feedback. To rigorously stress-test its resilience, I trained a reinforcement learning (PPO) adversarial attacker specifically tasked with dodging the detector. Extends an *IEEE Access* publication with 12 pre-registered experiments—keeping and reporting all negative results.
+&nbsp;•&nbsp; **530 tests · 12 pre-registered experiments · Full adversarial RL evaluation**
 
 ---
 
 #### 🔍 [DomainExpansion.ai](https://github.com/bodapatisaikrishna/domainexpansion)
-*MCP-native API attack-surface &amp; BOLA detection engine.*
+*MCP-native API attack-surface &amp; BOLA vulnerability detection engine.*
 <br/>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat-square)
 
-- Ingests raw API access logs to generate evidence-backed authorization vulnerability findings (BOLA, shadow endpoints, enumeration, log injection).
-- Seven deterministic detection rules, every finding citable by URI, validated on a real 50k-line third-party production corpus.
-- 🎯 **111 tests · Full MCP server implementation with 11 tools, 6 resources, 4 prompts**
+Detects Broken Object Level Authorization (BOLA), hidden endpoints, and credential enumeration by analyzing messy raw API access logs into concrete, citable security evidence. Rather than hallucinating findings, it executes seven deterministic detection heuristics exposed as a full Model Context Protocol (MCP) server. Validated against a real 50,000-line third-party production log corpus.
+&nbsp;•&nbsp; **111 tests · 11 MCP tools · 6 resources · 4 prompts**
 
 ---
 
@@ -200,22 +199,19 @@ saikrishna@node-01:~/deployments$ ./list_active_systems.sh --verified-only
 ![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-- SHAP and Grad-CAM explanations attached to every decision, leakage-free evaluation split, and Diebold–Mariano statistical significance test.
-- Automated IEEE-style manuscript generation from live trained models.
-- 🎯 **68 tests · Deployed via Docker + Hugging Face Spaces**
+Most machine learning tools in agriculture act as black boxes that growers cannot verify. AgriIntelligence packages 13 agronomic models behind a clean FastAPI service, attaching SHAP or Grad-CAM explanations to every single recommendation so users understand the *why*. Features strict leakage-free temporal splits, Diebold–Mariano statistical significance tests, and an automated script that compiles an IEEE-style paper directly from trained checkpoints.
+&nbsp;•&nbsp; **68 tests · Deployed with Docker on Hugging Face Spaces**
 
 ---
 
 #### 🔒 [Resilient Cybersecurity in Smart-Grid ICS Communication](https://github.com/bodapatisaikrishna/Resilient-Cybersecurity-in-Smart-Grid-ICS-Communication)
-*Multi-layer security stack for IEC 60870-5-104 industrial control traffic.*
+*Multi-layer security stack for IEC 60870-5-104 industrial SCADA networks.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
 ![cryptography](https://img.shields.io/badge/cryptography-A31515?style=flat-square)
 
-- Time-keyed AES-256 with 60-second automated key rotation.
-- XGBoost IDS with SMOTE over 411,000 traffic samples, accompanied by a cryptographic attack-resistance suite (CCA / CPA / COA / KPA).
-- Validated on the BUT-IEC104-I benchmark dataset.
+Legacy industrial SCADA systems often transmit sensitive grid control messages in unencrypted plaintext. I engineered a defense stack combining time-keyed AES-256 encryption with automated 60-second key rotation, paired with an XGBoost intrusion detector trained with SMOTE over 411,000 traffic packets. Validated against active cryptographic attack vectors (CCA, CPA, COA, KPA) on the BUT-IEC104-I benchmark dataset.
 
 ---
 
@@ -226,52 +222,35 @@ saikrishna@node-01:~/deployments$ ./list_active_systems.sh --verified-only
 saikrishna@node-01:~/oss$ git log --oneline --grep="MERGED" --tier-1
 ```
 
-| Pull Request | Repository | Engineering Impact &amp; Summary |
+I'm an active open-source contributor and enjoy fixing performance bottlenecks and security vulnerabilities in the tools I use every day. Here are some key pull requests I've had merged upstream:
+
+| Pull Request | Repository | What Was Solved &amp; Why It Matters |
 |:---:|---|---|
-| [#3732](https://github.com/apache/dubbo-go/pull/3732) | <img src="https://github.com/apache.png" width="16" height="16" alt="Apache"/> `apache/dubbo-go` | **[Core / Concurrency]** Prevented data race on router cache under concurrent routing using `atomic.Pointer` |
-| [#132860](https://github.com/grafana/grafana/pull/132860) | <img src="https://github.com/grafana.png" width="16" height="16" alt="Grafana"/> `grafana/grafana` | **[Core]** Eliminated `\B` alternation in logs key regex, removing catastrophic backtracking (**5,000x performance speedup**) |
-| [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt="NVIDIA"/> `NVIDIA/garak` | **[Core]** Used prompt setter in paraphrase buffs to update conversation history and preserve `Conversation` type integrity |
-| [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security]** Restricted `repo_id` validation regex strictly to ASCII word characters to prevent identifier ambiguity |
-| [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security]** Blocked directory traversal exploits via embedded `..` segments in `path_in_repo` parameter |
-| [#6858](https://github.com/optuna/optuna/pull/6858) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs]** Removed obsolete `ChainerMNStudy` references and fixed broken Sphinx roles in documentation FAQ |
-| [#6850](https://github.com/optuna/optuna/pull/6850) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs]** Corrected outdated trial failure reporting and NaN handling examples in official FAQ |
+| [#132860](https://github.com/grafana/grafana/pull/132860) | <img src="https://github.com/grafana.png" width="16" height="16" alt="Grafana"/> `grafana/grafana` | **[Core Performance]** Diagnosed and eliminated catastrophic regular expression backtracking (`\B` alternation) in Loki log key parsing, achieving a **5,000x speedup** on adversarial inputs. |
+| [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt="NVIDIA"/> `NVIDIA/garak` | **[Core LLM Red-Teaming]** Corrected prompt setters in paraphrase buffs to maintain conversation history and preserve `Conversation` type integrity during vulnerability scans. |
+| [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security Hardening]** Hardened `repo_id` validation by restricting character patterns strictly to ASCII word characters, eliminating subtle naming ambiguities. |
+| [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security Hardening]** Prevented directory traversal attacks by explicitly rejecting embedded `..` path segments in repository files. |
+| [#6858](https://github.com/optuna/optuna/pull/6858) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs &amp; Quality]** Removed obsolete `ChainerMNStudy` references and corrected broken Sphinx roles in the official documentation. |
+| [#6850](https://github.com/optuna/optuna/pull/6850) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs &amp; Quality]** Fixed outdated trial failure and NaN reporting examples in the FAQ to prevent user confusion. |
 
 ---
 
 <a id="active-research"></a>
-### 🔬 Currently Active Research &amp; Engineering
+### 🔬 What I'm Exploring Right Now
 
 ```bash
-saikrishna@node-01:~/roadmap$ cat active_work.json
+saikrishna@node-01:~/current$ cat what_im_working_on.md
 ```
 
-```json
-{
-  "active_workstreams": [
-    {
-      "project": "ACDE",
-      "focus": "Production hardening and multi-tenant isolation layer for agentic data pipeline governance"
-    },
-    {
-      "project": "CyberPhysicalDBN",
-      "focus": "Empirical comparison of causal vs. deep-IDS detectors under adversarial RL attackers"
-    },
-    {
-      "project": "klaim",
-      "focus": "Evidence-first algorithmic recovery of unjustified quick-commerce vendor deductions"
-    },
-    {
-      "core_study": "PyTorch Dynamo Internals",
-      "focus": "Deep-dive into torch.compile, SliceVariable handling, and OpInfo testing infrastructure"
-    }
-  ]
-}
-```
+- **Production ACDE Hardening**: Developing a multi-tenant isolation layer and policy sandbox for enterprise agentic pipeline governance.
+- **Causal vs. Deep-IDS Under Attack**: Researching whether causal Bayesian representations retain higher adversarial robustness than deep neural detectors under an adaptive RL adversary.
+- **klaim**: Building an evidence-first algorithmic tool to help quick-commerce vendors contest and reverse unjustified marketplace deductions.
+- **PyTorch Compiler Internals**: Reading through the `torch.compile` / Dynamo codebase, studying `SliceVariable` handling, guard generation, and operator lowering.
 
 ---
 
 <a id="telemetry--stats"></a>
-### 📊 Telemetry &amp; Activity Monitor
+### 📊 Activity &amp; Telemetry
 
 ```bash
 saikrishna@node-01:~/telemetry$ watch -n 1 streak_monitor
@@ -288,11 +267,13 @@ saikrishna@node-01:~/telemetry$ watch -n 1 streak_monitor
 ---
 
 <a id="handshake"></a>
-### 📡 Establish Handshake
+### 🤝 Let's Connect
 
 ```bash
 saikrishna@node-01:~$ ./ping --contact saikrishna
 ```
+
+Whether you'd like to discuss agentic AI safety, causal ML in critical infrastructure, open-source work, or explore potential research/internship roles, feel free to reach out!
 
 <p align="center">
   <a href="https://www.linkedin.com/in/saikrishna-bodapati-5a5891321/" target="_blank">
