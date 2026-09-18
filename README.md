@@ -131,13 +131,13 @@ saikrishna@node-01:~/stack$ ./audit_security_stack.sh
 ---
 
 <a id="verified-deployments"></a>
-### 🚀 Featured Systems &amp; Projects
+###  Featured Systems &amp; Projects
 
 ```bash
 saikrishna@node-01:~/projects$ ls -la --sort=impact
 ```
 
-#### 🛡️ [ACDE: Agentic Cloud Pipeline Governance](https://github.com/bodapatisaikrishna/agentic-cloud-pipeline-governance)
+####  [ACDE: Agentic Cloud Pipeline Governance](https://github.com/bodapatisaikrishna/agentic-cloud-pipeline-governance)
 *Policy-bounded agentic governance for distributed cloud pipelines.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -151,7 +151,7 @@ Autonomous AI agents can fix broken data pipelines on the fly, but letting an LL
 
 ---
 
-#### 💳 [Kosh: AI Finance Controller](https://github.com/bodapatisaikrishna/kosh)
+####  [Kosh: AI Finance Controller](https://github.com/bodapatisaikrishna/kosh)
 *Three-way payment settlement reconciliation, tied out to the exact paisa.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -163,7 +163,7 @@ Built for the **Razorpay AI Buildathon 2026**. Kosh reconciles high-volume finan
 
 ---
 
-#### ⚡ [CyberPhysicalDBN](https://github.com/bodapatisaikrishna/CyberPhysicalDBN)
+#### [CyberPhysicalDBN](https://github.com/bodapatisaikrishna/CyberPhysicalDBN)
 *Causal intrusion detection for smart power grids: learned, not hand-tuned; closed-loop, not open.*
 <br/>
 ![PyG](https://img.shields.io/badge/PyTorch_Geometric-3C2179?style=flat-square&logo=pytorch&logoColor=white)
@@ -176,7 +176,7 @@ Standard intrusion detection systems in smart grids treat telemetry like arbitra
 
 ---
 
-#### 🔍 [DomainExpansion.ai](https://github.com/bodapatisaikrishna/domainexpansion)
+####  [DomainExpansion.ai](https://github.com/bodapatisaikrishna/domainexpansion)
 *MCP-native API attack-surface &amp; BOLA vulnerability detection engine.*
 <br/>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -187,7 +187,7 @@ Detects Broken Object Level Authorization (BOLA), hidden endpoints, and credenti
 
 ---
 
-#### 🌾 [AgriIntelligence](https://github.com/bodapatisaikrishna/agri-intelligence)
+####  [AgriIntelligence](https://github.com/bodapatisaikrishna/agri-intelligence)
 *Explainable precision-farming platform: 13 decision modules behind a unified service.*
 <br/>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -200,7 +200,7 @@ Most machine learning tools in agriculture act as black boxes that growers canno
 
 ---
 
-#### 🔒 [Resilient Cybersecurity in Smart-Grid ICS Communication](https://github.com/bodapatisaikrishna/Resilient-Cybersecurity-in-Smart-Grid-ICS-Communication)
+####  [Resilient Cybersecurity in Smart-Grid ICS Communication](https://github.com/bodapatisaikrishna/Resilient-Cybersecurity-in-Smart-Grid-ICS-Communication)
 *Multi-layer security stack for IEC 60870-5-104 industrial SCADA networks.*
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -212,7 +212,7 @@ Legacy industrial SCADA systems often transmit sensitive grid control messages i
 ---
 
 <a id="upstream-contributions"></a>
-### 🌐 Upstream Open-Source Contributions
+###  Open-Source Contributions
 
 ```bash
 saikrishna@node-01:~/oss$ git log --oneline --grep="MERGED" --tier-1
@@ -230,14 +230,12 @@ I'm an active open-source contributor and enjoy fixing performance bottlenecks a
 | [#6858](https://github.com/optuna/optuna/pull/6858) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs &amp; Quality]** Removed obsolete `ChainerMNStudy` references and corrected broken Sphinx roles in the official documentation. |
 | [#6850](https://github.com/optuna/optuna/pull/6850) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs &amp; Quality]** Fixed outdated trial failure and NaN reporting examples in the FAQ to prevent user confusion. |
 
-<p align="center">
-  <sub>Plus <b>25+ PRs</b> open and under review across Tesla, xAI (Grok), SpaceX/Starlink, Meta, Airbnb, Shopify, HashiCorp, Datadog, Uber, Google, Vercel, Microsoft, and other repos — full list on the <a href="https://github.com/bodapatisaikrishna?tab=repositories">repositories tab</a>.</sub>
-</p>
+
 
 ---
 
 <a id="active-research"></a>
-### 🔬 What I'm Exploring Right Now
+###  What I'm Exploring Right Now
 
 ```bash
 saikrishna@node-01:~/current$ cat what_im_working_on.md
@@ -251,7 +249,7 @@ saikrishna@node-01:~/current$ cat what_im_working_on.md
 ---
 
 <a id="telemetry--stats"></a>
-### 📊 Activity &amp; Telemetry
+###  Activity &amp; Telemetry
 
 ```bash
 saikrishna@node-01:~/telemetry$ watch -n 1 streak_monitor
