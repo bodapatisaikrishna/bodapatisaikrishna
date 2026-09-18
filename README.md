@@ -256,7 +256,7 @@ saikrishna@node-01:~/telemetry$ watch -n 1 streak_monitor
 ```
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=bodapatisaikrishna&hide_border=true&card_width=470&background=0D1117&stroke=30363D&ring=1F6FEB&fire=1F6FEB&currStreakLabel=8B949E" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=bodapatisaikrishna&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak Stats" />
 </p>
 
 <p align="center">
