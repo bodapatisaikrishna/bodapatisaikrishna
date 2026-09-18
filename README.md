@@ -223,7 +223,7 @@ I'm an active open-source contributor and enjoy fixing performance bottlenecks a
 | Pull Request | Repository | What Was Solved &amp; Why It Matters |
 |:---:|---|---|
 | [#132860](https://github.com/grafana/grafana/pull/132860) | <img src="https://github.com/grafana.png" width="16" height="16" alt="Grafana"/> `grafana/grafana` | **[Core Performance]** Diagnosed and eliminated catastrophic regular expression backtracking (`\B` alternation) in Loki log key parsing, achieving a **5,000x speedup** on adversarial inputs. |
-| [#3732](https://github.com/apache/dubbo-go/pull/3732) | <img src="https://github.com/apache.png" width="16" height="16" alt="Apache"/> `apache/dubbo-go` | **[Concurrency]** Fixed a data race on the router cache uncovered by `TestRouteCacheGenerationRace`, closing a window where concurrent reads could observe a partially-built route table. |
+| [#3732](https://github.com/apache/dubbo-go/pull/3732) | <img src="https://github.com/apache.png" width="16" height="16" alt="Apache"/> `apache/dubbo-go` | **[Concurrency &amp; Data Race]** Closed a high-concurrency race condition on router cache using `atomic.Pointer` under concurrent route generation. |
 | [#2200](https://github.com/NVIDIA/garak/pull/2200) | <img src="https://github.com/NVIDIA.png" width="16" height="16" alt="NVIDIA"/> `NVIDIA/garak` | **[Core LLM Red-Teaming]** Corrected prompt setters in paraphrase buffs to maintain conversation history and preserve `Conversation` type integrity during vulnerability scans. |
 | [#4892](https://github.com/huggingface/huggingface_hub/pull/4892) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security Hardening]** Hardened `repo_id` validation by restricting character patterns strictly to ASCII word characters, eliminating subtle naming ambiguities. |
 | [#4884](https://github.com/huggingface/huggingface_hub/pull/4884) | <img src="https://github.com/huggingface.png" width="16" height="16" alt="Hugging Face"/> `huggingface/huggingface_hub` | **[Security Hardening]** Prevented directory traversal attacks by explicitly rejecting embedded `..` path segments in repository files. |
@@ -231,7 +231,7 @@ I'm an active open-source contributor and enjoy fixing performance bottlenecks a
 | [#6850](https://github.com/optuna/optuna/pull/6850) | <img src="https://github.com/optuna.png" width="16" height="16" alt="Optuna"/> `optuna/optuna` | **[Docs &amp; Quality]** Fixed outdated trial failure and NaN reporting examples in the FAQ to prevent user confusion. |
 
 <p align="center">
-  <sub>Plus <b>20+ PRs</b> open and under review across Meta, Airbnb, Shopify, HashiCorp, Datadog, Uber, Google, Vercel, Microsoft, and other repos — full list on the <a href="https://github.com/bodapatisaikrishna?tab=repositories">repositories tab</a>.</sub>
+  <sub>Plus <b>25+ PRs</b> open and under review across Tesla, xAI (Grok), SpaceX/Starlink, Meta, Airbnb, Shopify, HashiCorp, Datadog, Uber, Google, Vercel, Microsoft, and other repos — full list on the <a href="https://github.com/bodapatisaikrishna?tab=repositories">repositories tab</a>.</sub>
 </p>
 
 ---
