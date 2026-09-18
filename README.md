@@ -67,9 +67,8 @@ Most of my day-to-day focus sits right where applied ML meets practical systems 
 <a id="runtime--stack"></a>
 ### 💻 System Environment &amp; Tech Stack
 
-```bash
-saikrishna@node-01:~/stack$ cat languages_and_scripting.txt
-```
+**Languages &amp; Scripting**
+<br/>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -79,9 +78,8 @@ saikrishna@node-01:~/stack$ cat languages_and_scripting.txt
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-E16737?style=for-the-badge&logo=matlab&logoColor=white)
 
-```bash
-saikrishna@node-01:~/stack$ ./init_ml_environment.sh --eval-mode
-```
+**Machine Learning &amp; Causal AI**
+<br/>
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![PyG](https://img.shields.io/badge/PyG_%2F_Geometric-3C2179?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -103,9 +101,8 @@ saikrishna@node-01:~/stack$ ./init_ml_environment.sh --eval-mode
 ![LSTMs](https://img.shields.io/badge/LSTMs-2D3748?style=flat-square)
 </details>
 
-```bash
-saikrishna@node-01:~/stack$ ./serve_infrastructure.sh --protocol=mcp
-```
+**Backend, Systems &amp; Protocols**
+<br/>
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=for-the-badge)
@@ -118,9 +115,8 @@ saikrishna@node-01:~/stack$ ./serve_infrastructure.sh --protocol=mcp
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-```bash
-saikrishna@node-01:~/stack$ ./audit_security_stack.sh
-```
+**Security &amp; Simulation**
+<br/>
 
 ![AES-256](https://img.shields.io/badge/AES--256-A31515?style=for-the-badge)
 ![pandapower](https://img.shields.io/badge/pandapower-2B7A78?style=for-the-badge)
@@ -132,10 +128,6 @@ saikrishna@node-01:~/stack$ ./audit_security_stack.sh
 
 <a id="verified-deployments"></a>
 ###  Featured Systems &amp; Projects
-
-```bash
-saikrishna@node-01:~/projects$ ls -la --sort=impact
-```
 
 ####  [ACDE: Agentic Cloud Pipeline Governance](https://github.com/bodapatisaikrishna/agentic-cloud-pipeline-governance)
 *Policy-bounded agentic governance for distributed cloud pipelines.*
@@ -214,10 +206,6 @@ Legacy industrial SCADA systems often transmit sensitive grid control messages i
 <a id="upstream-contributions"></a>
 ###  Open-Source Contributions
 
-```bash
-saikrishna@node-01:~/oss$ git log --oneline --grep="MERGED" --tier-1
-```
-
 I'm an active open-source contributor and enjoy fixing performance bottlenecks and security vulnerabilities in the tools I use every day. Here are some key pull requests I've had merged upstream:
 
 | Pull Request | Repository | What Was Solved &amp; Why It Matters |
@@ -237,10 +225,6 @@ I'm an active open-source contributor and enjoy fixing performance bottlenecks a
 <a id="active-research"></a>
 ###  What I'm Exploring Right Now
 
-```bash
-saikrishna@node-01:~/current$ cat what_im_working_on.md
-```
-
 - **Production ACDE Hardening**: Developing a multi-tenant isolation layer and policy sandbox for enterprise agentic pipeline governance.
 - **Causal vs. Deep-IDS Under Attack**: Researching whether causal Bayesian representations retain higher adversarial robustness than deep neural detectors under an adaptive RL adversary.
 - **klaim**: Building an evidence-first algorithmic tool to help quick-commerce vendors contest and reverse unjustified marketplace deductions.
@@ -250,10 +234,6 @@ saikrishna@node-01:~/current$ cat what_im_working_on.md
 
 <a id="telemetry--stats"></a>
 ###  Activity &amp; Telemetry
-
-```bash
-saikrishna@node-01:~/telemetry$ watch -n 1 streak_monitor
-```
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=bodapatisaikrishna&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak Stats" />
@@ -267,10 +247,6 @@ saikrishna@node-01:~/telemetry$ watch -n 1 streak_monitor
 
 <a id="handshake"></a>
 ### 🤝 Let's Connect
-
-```bash
-saikrishna@node-01:~$ ./ping --contact saikrishna
-```
 
 Whether you'd like to discuss agentic AI safety, causal ML in critical infrastructure, open-source work, or explore potential research/internship roles, feel free to reach out!
 
