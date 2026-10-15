@@ -18,7 +18,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Applied+AI%2FML+%26+Systems+Engineer;Explainable+Systems%2C+Honestly+Evaluated;Agentic+Governance+%C2%B7+Causal+IDS+%C2%B7+MCP-Native;Tier-1+OSS+Contributor+(Grafana%2C+HuggingFace%2C+NVIDIA)" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=17&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Applied+AI%2FML+%26+Systems+Engineer;Explainable+Systems%2C+Honestly+Evaluated;Agentic+Governance+%C2%B7+Causal+IDS+%C2%B7+MCP-Native;Tier-1+OSS+Contributor+(PyTorch%2C+TensorFlow%2C+Grafana%2C+NVIDIA)" alt="Typing SVG" />
   </a>
 </div>
 
@@ -210,6 +210,7 @@ I'm an active open-source contributor and enjoy fixing performance bottlenecks a
 
 | Pull Request | Repository | What Was Solved &amp; Why It Matters |
 |:---:|---|---|
+| [#196292](https://github.com/pytorch/pytorch/pull/196292) | <img src="https://github.com/pytorch.png" width="16" height="16" alt="PyTorch"/> `pytorch/pytorch` | **[Compiler &amp; Dynamo Runtime]** Fixed `TypeError: <Model> does not support len()` when evaluating truthiness of plain (non-`Sized`) compiled modules by implementing `OptimizedModule.__bool__`, restoring boolean parity with unwrapped `nn.Module`s. |
 | [#149775](https://github.com/openclaw/openclaw/pull/149775) | <img src="https://github.com/openclaw.png" width="16" height="16" alt="OpenClaw"/> `openclaw/openclaw` | **[Tool Call Sanitizer / Streaming Reliability]** Fixed trailing reply text truncation caused by `[TOOL_CALL]` / `[TOOL_RESULT]` payloads quoting closing tags inside inline or fenced Markdown code, by advancing the scanner past protected code regions to the true closing marker. |
 | [#128598](https://github.com/tensorflow/tensorflow/pull/128598) | <img src="https://github.com/tensorflow.png" width="16" height="16" alt="TensorFlow"/> `tensorflow/tensorflow` | **[Core Ops Stability &amp; Shape Inference]** Added regression tests verifying `tf.nn.conv2d` and `gen_nn_ops.Conv2D` fail safely on invalid rank (&lt; 4) input and filter tensors in eager and graph execution, covering existing C++ kernel protections against fatal abort crashes. |
 | [#3045](https://github.com/microsoft/onnxscript/pull/3045) | <img src="https://github.com/microsoft.png" width="16" height="16" alt="Microsoft"/> `microsoft/onnxscript` | **[Correctness Fix]** Fixed an unhandled `IndexError` in `autocast.cast_inputs` for ops with no formal inputs (e.g. `RandomNormal`), so argument overflow raises the intended descriptive `ValueError`; added the first regression tests for the module covering both dynamic and static paths. |
